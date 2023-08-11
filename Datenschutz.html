@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+
+	    <script>
+        (function (exports, d) {
+            var _isReady = false,
+                _event,
+                _fns = [];
+
+            function onReady(event) {
+                d.removeEventListener("DOMContentLoaded", onReady);
+                _isReady = true;
+                _event = event;
+                _fns.forEach(function (_fn) {
+                    var fn = _fn[0],
+                        context = _fn[1];
+                    fn.call(context || exports, window.jQuery);
+                });
+            }
+
+            function onReadyIe(event) {
+                if (d.readyState === "complete") {
+                    d.detachEvent("onreadystatechange", onReadyIe);
+                    _isReady = true;
+                    _event = event;
+                    _fns.forEach(function (_fn) {
+                        var fn = _fn[0],
+                            context = _fn[1];
+                        fn.call(context || exports, event);
+                    });
+                }
+            }
+
+            d.addEventListener && d.addEventListener("DOMContentLoaded", onReady) ||
+            d.attachEvent && d.attachEvent("onreadystatechange", onReadyIe);
+
+            function domReady(fn, context) {
+                if (_isReady) {
+                    fn.call(context, _event);
+                }
+
+                _fns.push([fn, context]);
+            }
+
+            exports.mesmerizeDomReady = domReady;
+        })(window, document);
+    </script>
+	<title>Datenschutzerklärung &#8211; sun galaxy</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="sun galaxy &raquo; Feed" href="https://sungalaxy.de/feed" />
+<link rel="alternate" type="application/rss+xml" title="sun galaxy &raquo; Kommentar-Feed" href="https://sungalaxy.de/comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="sun galaxy &raquo; Datenschutzerklärung Kommentar-Feed" href="https://sungalaxy.de/datenschutzerklaerung/feed" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/sungalaxy.de\/wp-includes\/js\/wp-emoji-release.min.js?ver=f7eb629a58360771c26da1d1348b566b"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='https://sungalaxy.de/wp-includes/css/dist/block-library/style.min.css?ver=f7eb629a58360771c26da1d1348b566b' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='parent-style-css' href='https://sungalaxy.de/wp-content/themes/mesmerize/style.css?ver=f7eb629a58360771c26da1d1348b566b' type='text/css' media='all' />
+<link rel='stylesheet' id='mesmerize-style-css' href='https://sungalaxy.de/wp-content/themes/mesmerize-child/style.css?ver=1.0.0' type='text/css' media='all' />
+<style id='mesmerize-style-inline-css' type='text/css'>
+img.logo.dark, img.custom-logo{width:auto;max-height:70px !important;}
+/** cached kirki style */@media screen and (min-width: 768px){.header-homepage{background-position:center center;}}.header-homepage:not(.header-slide).color-overlay:before{background:#000000;}.header-homepage:not(.header-slide) .background-overlay,.header-homepage:not(.header-slide).color-overlay::before{opacity:0.59;}.header.color-overlay:before{background:#000000;}.header .background-overlay,.header.color-overlay::before{opacity:0.6;}.header.color-overlay:after{filter:invert(0%) ;}.header-homepage .header-description-row{padding-top:2%;padding-bottom:2%;}.inner-header-description{padding-top:8%;padding-bottom:8%;}@media screen and (max-width:767px){.header-homepage .header-description-row{padding-top:2%;padding-bottom:2%;}}@media only screen and (min-width: 768px){.header-content .align-holder{width:85%!important;}.inner-header-description{text-align:center!important;}}
+</style>
+<link rel='stylesheet' id='mesmerize-style-bundle-css' href='https://sungalaxy.de/wp-content/themes/mesmerize/assets/css/theme.bundle.min.css?ver=1.0.0' type='text/css' media='all' />
+<script type='text/javascript' src='https://sungalaxy.de/wp-includes/js/jquery/jquery.min.js?ver=3.7.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://sungalaxy.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1' id='jquery-migrate-js'></script>
+<script id="jquery-js-after" type="text/javascript">
+(function () {
+            function setHeaderTopSpacing() {
+
+                setTimeout(function() {
+                  var headerTop = document.querySelector('.header-top');
+                  var headers = document.querySelectorAll('.header-wrapper .header,.header-wrapper .header-homepage');
+
+                  for (var i = 0; i < headers.length; i++) {
+                      var item = headers[i];
+                      item.style.paddingTop = headerTop.getBoundingClientRect().height + "px";
+                  }
+
+                    var languageSwitcher = document.querySelector('.mesmerize-language-switcher');
+
+                    if(languageSwitcher){
+                        languageSwitcher.style.top = "calc( " +  headerTop.getBoundingClientRect().height + "px + 1rem)" ;
+                    }
+                    
+                }, 100);
+
+             
+            }
+
+            window.addEventListener('resize', setHeaderTopSpacing);
+            window.mesmerizeSetHeaderTopSpacing = setHeaderTopSpacing
+            mesmerizeDomReady(setHeaderTopSpacing);
+        })();
+</script>
+<script type='text/javascript' id='api_js-js-extra'>
+/* <![CDATA[ */
+var config = {"_lfm_api_abfragen_":"{\"lfm_station_name\":\"dynad\",\"lfm_show_history_news\":true,\"history_link\":false,\"lfm_show_history_jingles\":false,\"lfm_show_history_moderationen\":false,\"link_amazon\":true,\"link_apple\":true,\"link_youtube\":true,\"link_spotify\":true,\"link_laut\":true,\"refresh\":\"30\",\"lfm_max_history\":\"5\",\"lfm_history_time\":\"false\",\"lfm_max_top_artists\":\"5\",\"lfm_station_live_txt\":\"Station ist live\",\"lfm_history_time_text\":\"Uhr\",\"lfm_station_schedule_text\":\":00 Uhr\",\"lfm_station_playlists_time_text\":\":00 Uhr\",\"lfm_station_current_song_album_text\":\"Aus dem Album:\",\"lfm_station_current_song_releaseyear_text\":\"Aus dem Jahr:\",\"lfm_station_top_artists_symbol\":\"\\u00bb\",\"lfm_station_genres_symbol\":\"\\u00bb\",\"lfm_station_schedule_symbol\":\"\\u00bb\",\"lfm_station_next_artists_symbol\":\"\\u00bb\",\"lfm_station_not_live_txt\":\"Station ist nicht live\",\"lfm_schedule_not_entry_txt\":\"Leider keine Sendung\",\"lfm_station_next_artists_live_txt\":\"Live-Sendung - Vorschau nicht m\\u00f6glich\",\"timeout\":\"1500\",\"error_message\":\"Diese Anzeige ist derzeit nicht verf\\u00fcgbar\",\"top_artists_option_out\":\"1\",\"genre_option_out\":\"1\",\"next_artists_option_out\":\"2\",\"schedule\":\"schedule\",\"lfm_station_top_artists_separator\":\",\",\"lfm_station_top_artists_distance\":\"8\",\"lfm_station_genres_distance\":\"1\",\"lfm_station_next_artists_distance\":\"1\",\"lfm_station_history_distance\":\"8\",\"lfm_station_top_artists_last_separator\":\"&\",\"lfm_station_genres_separator\":\",\",\"lfm_station_genres_last_separator\":\"&\",\"lfm_station_next_artists_separator\":\",\",\"lfm_station_next_artists_last_separator\":\"&\"}"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://sungalaxy.de/wp-content/plugins/lfm-api-shortcodes/js/plugin.js?ver=version' id='api_js-js'></script>
+<link rel="https://api.w.org/" href="https://sungalaxy.de/wp-json/" /><link rel="alternate" type="application/json" href="https://sungalaxy.de/wp-json/wp/v2/pages/3" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sungalaxy.de/xmlrpc.php?rsd" />
+
+<link rel="canonical" href="https://sungalaxy.de/datenschutzerklaerung" />
+<link rel='shortlink' href='https://sungalaxy.de/?p=3' />
+<link rel="alternate" type="application/json+oembed" href="https://sungalaxy.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsungalaxy.de%2Fdatenschutzerklaerung" />
+<link rel="alternate" type="text/xml+oembed" href="https://sungalaxy.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsungalaxy.de%2Fdatenschutzerklaerung&#038;format=xml" />
+    <style data-name="header-overlap-with">
+        @media screen and (min-width: 768px) {
+            .mesmerize-front-page.overlap-first-section:not(.mesmerize-front-page-with-slider) .header-homepage {
+                padding-bottom: 95px;
+            }
+
+            .mesmerize-front-page.overlap-first-section:not(.mesmerize-front-page-with-slider) .page-content div[data-overlap]:first-of-type > div:not([class*="section-separator"]) {
+                margin-top: -95px;
+            }
+        }
+    </style>
+    <!-- Analytics by WP Statistics v13.2.5 - https://wp-statistics.com/ -->
+
+    
+    <style type="text/css" data-name="custom-mobile-image-position">
+        @media screen and (max-width: 767px) {
+            /*Custom mobile position*/
+        .header-homepage {
+            background-position: 50% 0px;
+        }
+        }
+    </style>
+
+    
+        <script type="text/javascript" data-name="async-styles">
+        (function () {
+            var links = document.querySelectorAll('link[data-href]');
+            for (var i = 0; i < links.length; i++) {
+                var item = links[i];
+                item.href = item.getAttribute('data-href')
+            }
+        })();
+    </script>
+	<link rel="pingback" href="https://sungalaxy.de/xmlrpc.php">
+<link rel="icon" href="https://sungalaxy.de/wp-content/uploads/2022/02/cropped-webicon_sungalaxy_favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://sungalaxy.de/wp-content/uploads/2022/02/cropped-webicon_sungalaxy_favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://sungalaxy.de/wp-content/uploads/2022/02/cropped-webicon_sungalaxy_favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://sungalaxy.de/wp-content/uploads/2022/02/cropped-webicon_sungalaxy_favicon-270x270.png" />
+    <style id="page-content-custom-styles">
+            </style>
+        <style data-name="background-content-colors">
+        .mesmerize-inner-page .page-content,
+        .mesmerize-inner-page .content,
+        .mesmerize-front-page.mesmerize-content-padding .page-content {
+            background-color: #F5FAFD;
+        }
+    </style>
+    </head>
+
+<body class="privacy-policy page-template page-template-page-templates page-template-homepage page-template-page-templateshomepage-php page page-id-3 wp-custom-logo overlap-first-section mesmerize-front-page mesmerize-content-padding">
+<style>
+.screen-reader-text[href="#page-content"]:focus {
+   background-color: #f1f1f1;
+   border-radius: 3px;
+   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+   clip: auto !important;
+   clip-path: none;
+   color: #21759b;
+
+}
+</style>
+<a class="skip-link screen-reader-text" href="#page-content">Zum Inhalt springen</a>
+<div id="page-top" class="header-top homepage">
+		<div class="navigation-bar homepage"  data-sticky='0'  data-sticky-mobile='1'  data-sticky-to='top' >
+    <div class="navigation-wrapper ">
+    	<div class="row basis-auto">
+	        <div class="logo_col col-xs col-sm-fit">
+	            <a href="https://sungalaxy.de/" class="logo-link dark" rel="home" itemprop="url"  data-type="group"  data-dynamic-mod="true"><img width="954" height="238" src="logo.png" class="logo dark" alt="" decoding="async" itemprop="logo" fetchpriority="high" srcset="logo.png 954w, logo.png 300w, logo.png 768w" sizes="(max-width: 954px) 100vw, 954px" /></a><a href="index.html" class="custom-logo-link" data-type="group"  data-dynamic-mod="true" rel="home"><img width="954" height="238" src="logo.png" class="custom-logo" alt="sun galaxy" decoding="async" srcset="logo.png 954w, logo.png 300w, logo.png 768w" sizes="(max-width: 954px) 100vw, 954px" /></a>	        </div>
+	        <div class="main_menu_col col-xs">
+	            <div id="mainmenu_container" class="row"><ul id="main_menu" class="active-line-bottom main-menu dropdown-menu"><li id="menu-item-79" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79"><a href="index.html">Radio Dynad home</a></li>
+<li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy current-menu-item page_item page-item-3 current_page_item menu-item-36"><a rel="privacy-policy" href="Datenschutz.html" aria-current="page">Datenschutz</a></li>
+<li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="impressum.html">Impressum</a></li>
+</ul></div>    <a href="#" data-component="offcanvas" data-target="#offcanvas-wrapper" data-direction="right" data-width="300px" data-push="false">
+        <div class="bubble"></div>
+        <i class="fa fa-bars"></i>
+    </a>
+    <div id="offcanvas-wrapper" class="hide force-hide  offcanvas-right">
+        <div class="offcanvas-top">
+            <div class="logo-holder">
+                <a href="https://sungalaxy.de/" class="logo-link dark" rel="home" itemprop="url"  data-type="group"  data-dynamic-mod="true"><img width="954" height="238" src="logo.png" class="logo dark" alt="" decoding="async" itemprop="logo" srcset="logo.png 954w, logo.png 300w, logo.png 768w" sizes="(max-width: 954px) 100vw, 954px" /></a><a href="index.html" class="custom-logo-link" data-type="group"  data-dynamic-mod="true" rel="home"><img width="954" height="238" src="logo.png" class="custom-logo" alt="Radio Dynad" decoding="async" srcset="logo.png 954w, logo.png 300w, logo.png 768w" sizes="(max-width: 954px) 100vw, 954px" /></a>            </div>
+        </div>
+        <div id="offcanvas-menu" class="menu-menu-1-container"><ul id="offcanvas_menu" class="offcanvas_menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79"><a href="index.html">Radio Dynad home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy current-menu-item page_item page-item-3 current_page_item menu-item-36"><a rel="privacy-policy" href="Datenschutz.html" aria-current="page">Datenschutz</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="Impressum.html">Impressum</a></li>
+</ul></div>
+            </div>
+    	        </div>
+	    </div>
+    </div>
+</div>
+</div>
+
+
+<div id="page" class="site">
+
+	<div class="header-wrapper">
+   <div  class='header-homepage  color-overlay' style='; background-image:url(&quot;dhbf2ncgn26fdn.jpg&quot;); background-color:#F5CF00'>
+                  
+    <div class="header-description gridContainer content-on-center">
+        <div class="row header-description-row middle-sm">
+    <div class="header-content header-content-centered col-md col-xs-12">
+        <div class="align-holder center">
+            <h1 class="hero-title">Gute Laune Hit Musik - GARANTIERT.</h1><p class="header-subtitle">Aktueller Titel:
+<br><span class="api_lfm_currentsong">Loading…</span></p><div data-dynamic-mod-container class="header-buttons-wrapper"><a class="button big color1 round customize-unpreviewable" target="_blank" href="https://stream.laut.fm/dynad" >Radio starten</a><a class="button big color-white round outline customize-unpreviewable" target="_self" href="sendeplan.html" >Sendeplan</a></div>        </div>
+    </div>
+</div>
+    </div>
+    
+        <script>
+		if (window.mesmerizeSetHeaderTopSpacing) {
+			window.mesmerizeSetHeaderTopSpacing();
+		}
+    </script>
+    
+               </div>
+</div>
+
+    <div id='page-content' class="page-content">
+        <div class="gridContainer content">
+            <div id="post-283" class="post-283 page type-page status-publish hentry">
+<div>
+<h2>Datenschutz</h2>
+<p>Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten“) innerhalb unseres Onlineangebotes und der mit ihm verbundenen Webseiten, Funktionen und Inhalte sowie externen Onlinepräsenzen, wie z.B. unser Social Media Profile auf (nachfolgend gemeinsam bezeichnet als „Onlineangebot“). Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung“ oder „Verantwortlicher“ verweisen wir auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO).</p>
+<h3 id="dsg-general-controller">Verantwortlich</h3>
+<pre><span class="tsmcontroller">RSN Media
+Flösserstrasse 7
+5000 Aarau CH</span></pre>
+<p>&nbsp;</p>
+<h4>GEMA / GVL</h4>
+<p>Die auf dieser Webseite verlinkten Radiostreams sind bei der GEMA und der GVL lizenziert von:</p>
+<pre>Laut AG
+Seilerstraße 7
+78467 Konstanz
+
+Telefon: 07531 6923800
+Amtsgericht Freiburg i.B. HRB381837
+USt-IdNr.: DE 213331580
+www.laut.fm
+</pre>
+<h3>Arten der verarbeiteten Daten:</h3>
+<p>– Bestandsdaten (z.B., Namen, Adressen).<br />
+– Kontaktdaten (z.B., E-Mail, Telefonnummern).<br />
+– Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).<br />
+– Nutzungsdaten (z.B., besuchte Webseiten, Interesse an Inhalten, Zugriffszeiten).<br />
+– Meta-/Kommunikationsdaten (z.B., Geräte-Informationen, IP-Adressen).</p>
+<h3>Verwendung der laut.fm API</h3>
+<p>Diese Website benutzt die öffentliche laut.fm-API. Die laut.fm-API ist ein Dienst der LAUT AG und exponiert allgemeine Informationen über laut.fm, Auflistungen von Stationen und Informationen über einzelne Stationen. Bei Zugriff auf die API werden automatisch Informationen allgemeiner Natur an laut.fm übertragen. Diese Informationen beinhalten etwa die IP-Adresse, die Art des Webbrowsers und des verwendete Betriebssystems, den Domainnamen Ihres Internet Service Providers und Ähnliches. Hierbei handelt es sich ausschließlich um Informationen, welche keine Rückschlüsse auf Ihre Person zulassen. Diese Informationen sind technisch notwendig, um beispielsweise den aktuell laufenden Titel korrekt auszuliefern und fallen bei Nutzung des Internets zwingend an. Anonyme Informationen dieser Art werden von der LAUT AG nur kurzfristig gespeichert und gegenenfalls statistisch ausgewertet, um die API und die dahinterstehende Technik zu optimieren.</p>
+<h3 id="dsg-general-datasubjects">Kategorien betroffener Personen</h3>
+<p>Besucher und Nutzer des Onlineangebotes (Nachfolgend bezeichnen wir die betroffenen Personen zusammenfassend auch als „Nutzer“).</p>
+<h3 id="dsg-general-purpose">Zweck der Verarbeitung</h3>
+<p>– Zurverfügungstellung des Onlineangebotes, seiner Funktionen und Inhalte.<br />
+– Beantwortung von Kontaktanfragen und Kommunikation mit Nutzern.<br />
+– Sicherheitsmaßnahmen.<br />
+– Reichweitenmessung/Marketing</p>
+<h3 id="dsg-general-terms">Verwendete Begrifflichkeiten</h3>
+<p>„Personenbezogene Daten“ sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person (im Folgenden „betroffene Person“) beziehen; als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung (z.B. Cookie) oder zu einem oder mehreren besonderen Merkmalen identifiziert werden kann, die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser natürlichen Person sind.</p>
+<p>„Verarbeitung“ ist jeder mit oder ohne Hilfe automatisierter Verfahren ausgeführten Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten. Der Begriff reicht weit und umfasst praktisch jeden Umgang mit Daten.</p>
+<p>„Pseudonymisierung“ die Verarbeitung personenbezogener Daten in einer Weise, dass die personenbezogenen Daten ohne Hinzuziehung zusätzlicher Informationen nicht mehr einer spezifischen betroffenen Person zugeordnet werden können, sofern diese zusätzlichen Informationen gesondert aufbewahrt werden und technischen und organisatorischen Maßnahmen unterliegen, die gewährleisten, dass die personenbezogenen Daten nicht einer identifizierten oder identifizierbaren natürlichen Person zugewiesen werden;</p>
+<p>„Profiling“ jede Art der automatisierten Verarbeitung personenbezogener Daten, die darin besteht, dass diese personenbezogenen Daten verwendet werden, um bestimmte persönliche Aspekte, die sich auf eine natürliche Person beziehen, zu bewerten, insbesondere um Aspekte bezüglich Arbeitsleistung, wirtschaftliche Lage, Gesundheit, persönliche Vorlieben, Interessen, Zuverlässigkeit, Verhalten, Aufenthaltsort oder Ortswechsel dieser natürlichen Person zu analysieren oder vorherzusagen;</p>
+<p>Als „Verantwortlicher“ wird die natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet, bezeichnet.</p>
+<p>„Auftragsverarbeiter“ eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet;</p>
+<h3 id="dsg-general-legalbasis">Maßgebliche Rechtsgrundlagen</h3>
+<p>Nach Maßgabe des Art. 13 DSGVO teilen wir Ihnen die Rechtsgrundlagen unserer Datenverarbeitungen mit. Sofern die Rechtsgrundlage in der Datenschutzerklärung nicht genannt wird, gilt Folgendes: Die Rechtsgrundlage für die Einholung von Einwilligungen ist Art. 6 Abs. 1 lit. a und Art. 7 DSGVO, die Rechtsgrundlage für die Verarbeitung zur Erfüllung unserer Leistungen und Durchführung vertraglicher Maßnahmen sowie Beantwortung von Anfragen ist Art. 6 Abs. 1 lit. b DSGVO, die Rechtsgrundlage für die Verarbeitung zur Erfüllung unserer rechtlichen Verpflichtungen ist Art. 6 Abs. 1 lit. c DSGVO, und die Rechtsgrundlage für die Verarbeitung zur Wahrung unserer berechtigten Interessen ist Art. 6 Abs. 1 lit. f DSGVO. Für den Fall, dass lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person eine Verarbeitung personenbezogener Daten erforderlich machen, dient Art. 6 Abs. 1 lit. d DSGVO als Rechtsgrundlage.</p>
+<h3 id="dsg-general-securitymeasures">Sicherheitsmaßnahmen</h3>
+<p>Wir treffen nach Maßgabe des Art. 32 DSGVO unter Berücksichtigung des Stands der Technik, der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung sowie der unterschiedlichen Eintrittswahrscheinlichkeit und Schwere des Risikos für die Rechte und Freiheiten natürlicher Personen, geeignete technische und organisatorische Maßnahmen, um ein dem Risiko angemessenes Schutzniveau zu gewährleisten.</p>
+<p>Zu den Maßnahmen gehören insbesondere die Sicherung der Vertraulichkeit, Integrität und Verfügbarkeit von Daten durch Kontrolle des physischen Zugangs zu den Daten, als auch des sie betreffenden Zugriffs, der Eingabe, Weitergabe, der Sicherung der Verfügbarkeit und ihrer Trennung. Des Weiteren haben wir Verfahren eingerichtet, die eine Wahrnehmung von Betroffenenrechten, Löschung von Daten und Reaktion auf Gefährdung der Daten gewährleisen. Ferner berücksichtigen wir den Schutz personenbezogener Daten bereits bei der Entwicklung, bzw. Auswahl von Hardware, Software sowie Verfahren, entsprechend dem Prinzip des Datenschutzes durch Technikgestaltung und durch datenschutzfreundliche Voreinstellungen berücksichtigt (Art. 25 DSGVO).</p>
+<h3 id="dsg-general-coprocessing">Zusammenarbeit mit Auftragsverarbeitern und Dritten</h3>
+<p>Sofern wir im Rahmen unserer Verarbeitung Daten gegenüber anderen Personen und Unternehmen (Auftragsverarbeitern oder Dritten) offenbaren, sie an diese übermitteln oder ihnen sonst Zugriff auf die Daten gewähren, erfolgt dies nur auf Grundlage einer gesetzlichen Erlaubnis (z.B. wenn eine Übermittlung der Daten an Dritte, wie an Zahlungsdienstleister, gem. Art. 6 Abs. 1 lit. b DSGVO zur Vertragserfüllung erforderlich ist), Sie eingewilligt haben, eine rechtliche Verpflichtung dies vorsieht oder auf Grundlage unserer berechtigten Interessen (z.B. beim Einsatz von Beauftragten, Webhostern, etc.).</p>
+<p>Sofern wir Dritte mit der Verarbeitung von Daten auf Grundlage eines sog. „Auftragsverarbeitungsvertrages“ beauftragen, geschieht dies auf Grundlage des Art. 28 DSGVO.</p>
+<h3 id="dsg-general-thirdparty">Übermittlungen in Drittländer</h3>
+<p>Sofern wir Daten in einem Drittland (d.h. außerhalb der Europäischen Union (EU) oder des Europäischen Wirtschaftsraums (EWR)) verarbeiten oder dies im Rahmen der Inanspruchnahme von Diensten Dritter oder Offenlegung, bzw. Übermittlung von Daten an Dritte geschieht, erfolgt dies nur, wenn es zur Erfüllung unserer (vor)vertraglichen Pflichten, auf Grundlage Ihrer Einwilligung, aufgrund einer rechtlichen Verpflichtung oder auf Grundlage unserer berechtigten Interessen geschieht. Vorbehaltlich gesetzlicher oder vertraglicher Erlaubnisse, verarbeiten oder lassen wir die Daten in einem Drittland nur beim Vorliegen der besonderen Voraussetzungen der Art. 44 ff. DSGVO verarbeiten. D.h. die Verarbeitung erfolgt z.B. auf Grundlage besonderer Garantien, wie der offiziell anerkannten Feststellung eines der EU entsprechenden Datenschutzniveaus (z.B. für die USA durch das „Privacy Shield“) oder Beachtung offiziell anerkannter spezieller vertraglicher Verpflichtungen (so genannte „Standardvertragsklauseln“).</p>
+<h3 id="dsg-general-rightssubject">Rechte der betroffenen Personen</h3>
+<p>Sie haben das Recht, eine Bestätigung darüber zu verlangen, ob betreffende Daten verarbeitet werden und auf Auskunft über diese Daten sowie auf weitere Informationen und Kopie der Daten entsprechend Art. 15 DSGVO.</p>
+<p>Sie haben entsprechend. Art. 16 DSGVO das Recht, die Vervollständigung der Sie betreffenden Daten oder die Berichtigung der Sie betreffenden unrichtigen Daten zu verlangen.</p>
+<p>Sie haben nach Maßgabe des Art. 17 DSGVO das Recht zu verlangen, dass betreffende Daten unverzüglich gelöscht werden, bzw. alternativ nach Maßgabe des Art. 18 DSGVO eine Einschränkung der Verarbeitung der Daten zu verlangen.</p>
+<p>Sie haben das Recht zu verlangen, dass die Sie betreffenden Daten, die Sie uns bereitgestellt haben nach Maßgabe des Art. 20 DSGVO zu erhalten und deren Übermittlung an andere Verantwortliche zu fordern.</p>
+<p>Sie haben ferner gem. Art. 77 DSGVO das Recht, eine Beschwerde bei der zuständigen Aufsichtsbehörde einzureichen.</p>
+<h3 id="dsg-general-revokeconsent">Widerrufsrecht</h3>
+<p>Sie haben das Recht, erteilte Einwilligungen gem. Art. 7 Abs. 3 DSGVO mit Wirkung für die Zukunft zu widerrufen</p>
+<h3 id="dsg-general-object">Widerspruchsrecht</h3>
+<p>Sie können der künftigen Verarbeitung der Sie betreffenden Daten nach Maßgabe des Art. 21 DSGVO jederzeit widersprechen. Der Widerspruch kann insbesondere gegen die Verarbeitung für Zwecke der Direktwerbung erfolgen.</p>
+<h3 id="dsg-general-cookies">Cookies und Widerspruchsrecht bei Direktwerbung</h3>
+<p>Als „Cookies“ werden kleine Dateien bezeichnet, die auf Rechnern der Nutzer gespeichert werden. Innerhalb der Cookies können unterschiedliche Angaben gespeichert werden. Ein Cookie dient primär dazu, die Angaben zu einem Nutzer (bzw. dem Gerät auf dem das Cookie gespeichert ist) während oder auch nach seinem Besuch innerhalb eines Onlineangebotes zu speichern. Als temporäre Cookies, bzw. „Session-Cookies“ oder „transiente Cookies“, werden Cookies bezeichnet, die gelöscht werden, nachdem ein Nutzer ein Onlineangebot verlässt und seinen Browser schließt. In einem solchen Cookie kann z.B. der Inhalt eines Warenkorbs in einem Onlineshop oder ein Login-Staus gespeichert werden. Als „permanent“ oder „persistent“ werden Cookies bezeichnet, die auch nach dem Schließen des Browsers gespeichert bleiben. So kann z.B. der Login-Status gespeichert werden, wenn die Nutzer diese nach mehreren Tagen aufsuchen. Ebenso können in einem solchen Cookie die Interessen der Nutzer gespeichert werden, die für Reichweitenmessung oder Marketingzwecke verwendet werden. Als „Third-Party-Cookie“ werden Cookies bezeichnet, die von anderen Anbietern als dem Verantwortlichen, der das Onlineangebot betreibt, angeboten werden (andernfalls, wenn es nur dessen Cookies sind spricht man von „First-Party Cookies“).</p>
+<p>Wir können temporäre und permanente Cookies einsetzen und klären hierüber im Rahmen unserer Datenschutzerklärung auf.</p>
+<p>Falls die Nutzer nicht möchten, dass Cookies auf ihrem Rechner gespeichert werden, werden sie gebeten die entsprechende Option in den Systemeinstellungen ihres Browsers zu deaktivieren. Gespeicherte Cookies können in den Systemeinstellungen des Browsers gelöscht werden. Der Ausschluss von Cookies kann zu Funktionseinschränkungen dieses Onlineangebotes führen.</p>
+<p>Ein genereller Widerspruch gegen den Einsatz der zu Zwecken des Onlinemarketing eingesetzten Cookies kann bei einer Vielzahl der Dienste, vor allem im Fall des Trackings, über die US-amerikanische Seite <a href="http://www.aboutads.info/choices/">http://www.aboutads.info/choices/</a> oder die EU-Seite <a href="http://www.youronlinechoices.com/">http://www.youronlinechoices.com/</a> erklärt werden. Des Weiteren kann die Speicherung von Cookies mittels deren Abschaltung in den Einstellungen des Browsers erreicht werden. Bitte beachten Sie, dass dann gegebenenfalls nicht alle Funktionen dieses Onlineangebotes genutzt werden können.</p>
+<h3 id="dsg-general-erasure">Löschung von Daten</h3>
+<p>Die von uns verarbeiteten Daten werden nach Maßgabe der Art. 17 und 18 DSGVO gelöscht oder in ihrer Verarbeitung eingeschränkt. Sofern nicht im Rahmen dieser Datenschutzerklärung ausdrücklich angegeben, werden die bei uns gespeicherten Daten gelöscht, sobald sie für ihre Zweckbestimmung nicht mehr erforderlich sind und der Löschung keine gesetzlichen Aufbewahrungspflichten entgegenstehen. Sofern die Daten nicht gelöscht werden, weil sie für andere und gesetzlich zulässige Zwecke erforderlich sind, wird deren Verarbeitung eingeschränkt. D.h. die Daten werden gesperrt und nicht für andere Zwecke verarbeitet. Das gilt z.B. für Daten, die aus handels- oder steuerrechtlichen Gründen aufbewahrt werden müssen.</p>
+<p>Nach gesetzlichen Vorgaben in Deutschland, erfolgt die Aufbewahrung insbesondere für 10 Jahre gemäß §§ 147 Abs. 1 AO, 257 Abs. 1 Nr. 1 und 4, Abs. 4 HGB (Bücher, Aufzeichnungen, Lageberichte, Buchungsbelege, Handelsbücher, für Besteuerung relevanter Unterlagen, etc.) und 6 Jahre gemäß § 257 Abs. 1 Nr. 2 und 3, Abs. 4 HGB (Handelsbriefe).</p>
+<p>Nach gesetzlichen Vorgaben in Österreich erfolgt die Aufbewahrung insbesondere für 7 J gemäß § 132 Abs. 1 BAO (Buchhaltungsunterlagen, Belege/Rechnungen, Konten, Belege, Geschäftspapiere, Aufstellung der Einnahmen und Ausgaben, etc.), für 22 Jahre im Zusammenhang mit Grundstücken und für 10 Jahre bei Unterlagen im Zusammenhang mit elektronisch erbrachten Leistungen, Telekommunikations-, Rundfunk- und Fernsehleistungen, die an Nichtunternehmer in EU-Mitgliedstaaten erbracht werden und für die der Mini-One-Stop-Shop (MOSS) in Anspruch genommen wird.</p>
+<h3 id="dsg-hostingprovider">Hosting</h3>
+<p><span class="ts-muster-content">Die von uns in Anspruch genommenen Hosting-Leistungen dienen der Zurverfügungstellung der folgenden Leistungen: Infrastruktur- und Plattformdienstleistungen, Rechenkapazität, Speicherplatz und Datenbankdienste, Sicherheitsleistungen sowie technische Wartungsleistungen, die wir zum Zwecke des Betriebs dieses Onlineangebotes einsetzen.</span></p>
+<p>Hierbei verarbeiten wir, bzw. unser Hostinganbieter Bestandsdaten, Kontaktdaten, Inhaltsdaten, Vertragsdaten, Nutzungsdaten, Meta- und Kommunikationsdaten von Kunden, Interessenten und Besuchern dieses Onlineangebotes auf Grundlage unserer berechtigten Interessen an einer effizienten und sicheren Zurverfügungstellung dieses Onlineangebotes gem. Art. 6 Abs. 1 lit. f DSGVO i.V.m. Art. 28 DSGVO (Abschluss Auftragsverarbeitungsvertrag).</p>
+<h3 id="dsg-logfiles">Erhebung von Zugriffsdaten und Logfiles</h3>
+<p><span class="ts-muster-content">Wir, bzw. unser Hostinganbieter, erhebt auf Grundlage unserer berechtigten Interessen im Sinne des Art. 6 Abs. 1 lit. f. DSGVO Daten über jeden Zugriff auf den Server, auf dem sich dieser Dienst befindet (sogenannte Serverlogfiles). Zu den Zugriffsdaten gehören Name der abgerufenen Webseite, Datei, Datum und Uhrzeit des Abrufs, übertragene Datenmenge, Meldung über erfolgreichen Abruf, Browsertyp nebst Version, das Betriebssystem des Nutzers, Referrer URL (die zuvor besuchte Seite), IP-Adresse und der anfragende Provider.</span></p>
+<p>Logfile-Informationen werden aus Sicherheitsgründen (z.B. zur Aufklärung von Missbrauchs- oder Betrugshandlungen) für die Dauer von maximal 7 Tagen gespeichert und danach gelöscht. Daten, deren weitere Aufbewahrung zu Beweiszwecken erforderlich ist, sind bis zur endgültigen Klärung des jeweiligen Vorfalls von der Löschung ausgenommen.</p>
+<h3 id="dsg-organisation">Erbringung unserer satzungs- und geschäftsgemäßen Leistungen</h3>
+<p><span class="ts-muster-content">Wir verarbeiten die Daten unserer Mitglieder, Unterstützer, Interessenten, Kunden oder sonstiger Personen entsprechend Art. 6 Abs. 1 lit. b. DSGVO, sofern wir ihnen gegenüber vertragliche Leistungen anbieten oder im Rahmen bestehender geschäftlicher Beziehung, z.B. gegenüber Mitgliedern, tätig werden oder selbst Empfänger von Leistungen und Zuwendungen sind. Im Übrigen verarbeiten wir die Daten betroffener Personen gem. Art. 6 Abs. 1 lit. f. DSGVO auf Grundlage unserer berechtigten Interessen, z.B. wenn es sich um administrative Aufgaben oder Öffentlichkeitsarbeit handelt.</span></p>
+<p>Die hierbei verarbeiteten Daten, die Art, der Umfang und der Zweck und die Erforderlichkeit ihrer Verarbeitung bestimmen sich nach dem zugrundeliegenden Vertragsverhältnis. Dazu gehören grundsätzlich Bestands- und Stammdaten der Personen (z.B., Name, Adresse, etc.), als auch die Kontaktdaten (z.B., E-Mailadresse, Telefon, etc.), die Vertragsdaten (z.B., in Anspruch genommene Leistungen, mitgeteilte Inhalte und Informationen, Namen von Kontaktpersonen) und sofern wir zahlungspflichtige Leistungen oder Produkte anbieten, Zahlungsdaten (z.B., Bankverbindung, Zahlungshistorie, etc.).</p>
+<p>Wir löschen Daten, die zur Erbringung unserer satzungs- und geschäftsmäßigen Zwecke nicht mehr erforderlich sind. Dies bestimmt sich entsprechend der jeweiligen Aufgaben und vertraglichen Beziehungen. Im Fall geschäftlicher Verarbeitung bewahren wir die Daten so lange auf, wie sie zur Geschäftsabwicklung, als auch im Hinblick auf etwaige Gewährleistungs- oder Haftungspflichten relevant sein können. Die Erforderlichkeit der Aufbewahrung der Daten wird alle drei Jahre überprüft; im Übrigen gelten die gesetzlichen Aufbewahrungspflichten.</p>
+<h3 id="dsg-services-payment">Externe Zahlungsdienstleister</h3>
+<p><span class="ts-muster-content">Wir setzen externe Zahlungsdienstleister ein, über deren Plattformen die Nutzer und wir Zahlungstransaktionen vornehmen können (z.B., jeweils mit Link zur Datenschutzerklärung, Paypal (https://www.paypal.com/de/webapps/mpp/ua/privacy-full), Klarna (https://www.klarna.com/de/datenschutz/), Skrill (https://www.skrill.com/de/fusszeile/datenschutzrichtlinie/), Giropay (https://www.giropay.de/rechtliches/datenschutz-agb/), Visa (https://www.visa.de/datenschutz), Mastercard (https://www.mastercard.de/de-de/datenschutz.html), American Express (https://www.americanexpress.com/de/content/privacy-policy-statement.html)</span></p>
+<p>Im Rahmen der Erfüllung von Verträgen setzen wir die Zahlungsdienstleister auf Grundlage des Art. 6 Abs. 1 lit. b. DSGVO ein. Im Übrigen setzen wir externe Zahlungsdienstleister auf Grundlage unserer berechtigten Interessen gem. Art. 6 Abs. 1 lit. b. DSGVO ein, um unseren Nutzern effektive und sichere Zahlungsmöglichkeit zu bieten.</p>
+<p>Zu den, durch die Zahlungsdienstleister verarbeiteten Daten gehören Bestandsdaten, wie z.B. der Name und die Adresse, Bankdaten, wie z.B. Kontonummern oder Kreditkartennummern, Passwörter, TANs und Prüfsummen sowie die Vertrags-, Summen und empfängerbezogenen Angaben. Die Angaben sind erforderlich, um die Transaktionen durchzuführen. Die eingegebenen Daten werden jedoch nur durch die Zahlungsdienstleister verarbeitet und bei diesen gespeichert. D.h. wir erhalten keine konto- oder kreditkartenbezogenen Informationen, sondern lediglich Informationen mit Bestätigung oder Negativbeauskunftung der Zahlung. Unter Umständen werden die Daten seitens der Zahlungsdienstleister an Wirtschaftsauskunfteien übermittelt. Diese Übermittlung bezweckt die Identitäts- und Bonitätsprüfung. Hierzu verweisen wir auf die AGB und Datenschutzhinweise der Zahlungsdienstleister.</p>
+<p>Für die Zahlungsgeschäfte gelten die Geschäftsbedingungen und die Datenschutzhinweise der jeweiligen Zahlungsdienstleister, welche innerhalb der jeweiligen Webseiten, bzw. Transaktionsapplikationen abrufbar sind. Wir verweisen auf diese ebenfalls zwecks weiterer Informationen und Geltendmachung von Widerrufs-, Auskunfts- und anderen Betroffenenrechten.</p>
+<h3 id="dsg-administration">Administration, Finanzbuchhaltung, Büroorganisation, Kontaktverwaltung</h3>
+<p><span class="ts-muster-content">Wir verarbeiten Daten im Rahmen von Verwaltungsaufgaben sowie Organisation unseres Betriebs, Finanzbuchhaltung und Befolgung der gesetzlichen Pflichten, wie z.B. der Archivierung. Hierbei verarbeiten wir dieselben Daten, die wir im Rahmen der Erbringung unserer vertraglichen Leistungen verarbeiten. Die Verarbeitungsgrundlagen sind Art. 6 Abs. 1 lit. c. DSGVO, Art. 6 Abs. 1 lit. f. DSGVO. Von der Verarbeitung sind Kunden, Interessenten, Geschäftspartner und Websitebesucher betroffen. Der Zweck und unser Interesse an der Verarbeitung liegt in der Administration, Finanzbuchhaltung, Büroorganisation, Archivierung von Daten, also Aufgaben die der Aufrechterhaltung unserer Geschäftstätigkeiten, Wahrnehmung unserer Aufgaben und Erbringung unserer Leistungen dienen. Die Löschung der Daten im Hinblick auf vertragliche Leistungen und die vertragliche Kommunikation entspricht den, bei diesen Verarbeitungstätigkeiten genannten Angaben.</span></p>
+<p>Wir offenbaren oder übermitteln hierbei Daten an die Finanzverwaltung, Berater, wie z.B., Steuerberater oder Wirtschaftsprüfer sowie weitere Gebührenstellen und Zahlungsdienstleister.</p>
+<p>Ferner speichern wir auf Grundlage unserer betriebswirtschaftlichen Interessen Angaben zu Lieferanten, Veranstaltern und sonstigen Geschäftspartnern, z.B. zwecks späterer Kontaktaufnahme. Diese mehrheitlich unternehmensbezogenen Daten, speichern wir grundsätzlich dauerhaft.</p>
+<h3 id="dsg-registration">Registrierfunktion</h3>
+<p><span class="ts-muster-content">Nutzer können ein Nutzerkonto anlegen. Im Rahmen der Registrierung werden die erforderlichen Pflichtangaben den Nutzern mitgeteilt und auf Grundlage des Art. 6 Abs. 1 lit. b DSGVO zu Zwecken der Bereitstellung des Nutzerkontos verarbeitet. Zu den verarbeiteten Daten gehören insbesondere die Login-Informationen (Name, Passwort sowie eine E-Mailadresse). Die im Rahmen der Registrierung eingegebenen Daten werden für die Zwecke der Nutzung des Nutzerkontos und dessen Zwecks verwendet.</span></p>
+<p>Die Nutzer können über Informationen, die für deren Nutzerkonto relevant sind, wie z.B. technische Änderungen, per E-Mail informiert werden. Wenn Nutzer ihr Nutzerkonto gekündigt haben, werden deren Daten im Hinblick auf das Nutzerkonto, vorbehaltlich einer gesetzlichen Aufbewahrungspflicht, gelöscht. Es obliegt den Nutzern, ihre Daten bei erfolgter Kündigung vor dem Vertragsende zu sichern. Wir sind berechtigt, sämtliche während der Vertragsdauer gespeicherten Daten des Nutzers unwiederbringlich zu löschen.</p>
+<p>Im Rahmen der Inanspruchnahme unserer Registrierungs- und Anmeldefunktionen sowie der Nutzung des Nutzerkontos, speichern wird die IP-Adresse und den Zeitpunkt der jeweiligen Nutzerhandlung. Die Speicherung erfolgt auf Grundlage unserer berechtigten Interessen, als auch der Nutzer an Schutz vor Missbrauch und sonstiger unbefugter Nutzung. Eine Weitergabe dieser Daten an Dritte erfolgt grundsätzlich nicht, außer sie ist zur Verfolgung unserer Ansprüche erforderlich oder es besteht hierzu besteht eine gesetzliche Verpflichtung gem. Art. 6 Abs. 1 lit. c DSGVO. Die IP-Adressen werden spätestens nach 7 Tagen anonymisiert oder gelöscht.</p>
+<h3 id="dsg-contact">Kontaktaufnahme</h3>
+<p><span class="ts-muster-content">Bei der Kontaktaufnahme mit uns (z.B. per Kontaktformular, E-Mail, Telefon oder via sozialer Medien) werden die Angaben des Nutzers zur Bearbeitung der Kontaktanfrage und deren Abwicklung gem. Art. 6 Abs. 1 lit. b) DSGVO verarbeitet. Die Angaben der Nutzer können in einem Customer-Relationship-Management System (“CRM System”) oder vergleichbarer Anfragenorganisation gespeichert werden.</span></p>
+<p>Wir löschen die Anfragen, sofern diese nicht mehr erforderlich sind. Wir überprüfen die Erforderlichkeit alle zwei Jahre; Ferner gelten die gesetzlichen Archivierungspflichten.</p>
+<h3 id="dsg-comments">Kommentare und Beiträge</h3>
+<p><span class="ts-muster-content">Wenn Nutzer Kommentare oder sonstige Beiträge hinterlassen, können ihre IP-Adressen auf Grundlage unserer berechtigten Interessen im Sinne des Art. 6 Abs. 1 lit. f. DSGVO für 7 Tage gespeichert werden. Das erfolgt zu unserer Sicherheit, falls jemand in Kommentaren und Beiträgen widerrechtliche Inhalte hinterlässt (Beleidigungen, verbotene politische Propaganda, etc.). In diesem Fall können wir selbst für den Kommentar oder Beitrag belangt werden und sind daher an der Identität des Verfassers interessiert.</span></p>
+<p>Des Weiteren behalten wir uns vor, auf Grundlage unserer berechtigten Interessen gem. Art. 6 Abs. 1 lit. f. DSGVO, die Angaben der Nutzer zwecks Spamerkennung zu verarbeiten.</p>
+<p>Die im Rahmen der Kommentare und Beiträge angegebenen Daten, werden von uns bis zum Widerspruch der Nutzer dauerhaft gespeichert.</p>
+<h3 id="dsg-subscribetocomments">Kommentarabonnements</h3>
+<p><span class="ts-muster-content">Die Nachfolgekommentare können durch Nutzer mit deren Einwilligung gem. Art. 6 Abs. 1 lit. a DSGVO abonniert werden. Die Nutzer erhalten eine Bestätigungsemail, um zu überprüfen, ob sie der Inhaber der eingegebenen Emailadresse sind. Nutzer können laufende Kommentarabonnements jederzeit abbestellen. Die Bestätigungsemail wird Hinweise zu den Widerrufsmöglichkeiten enthalten. Für die Zwecke des Nachweises der Einwilligung der Nutzer, speichern wir den Anmeldezeotpunkt nebst der IP-Adresse der Nutzer und löschen diese Informationen, wenn Nutzer sich von dem Abonnement abmelden.</span></p>
+<p>Sie können den Empfang unseres ABonnemenets jederzeit kündigen, d.h. Ihre Einwilligungen widerrufen. Wir können die ausgetragenen E-Mailadressen bis zu drei Jahren auf Grundlage unserer berechtigten Interessen speichern bevor wir sie löschen, um eine ehemals gegebene Einwilligung nachweisen zu können. Die Verarbeitung dieser Daten wird auf den Zweck einer möglichen Abwehr von Ansprüchen beschränkt. Ein individueller Löschungsantrag ist jederzeit möglich, sofern zugleich das ehemalige Bestehen einer Einwilligung bestätigt wird.</p>
+<h3 id="dsg-gravatar">Abruf von Profilbildern bei Gravatar</h3>
+<p><span class="ts-muster-content">Wir setzen innerhalb unseres Onlineangebotes und insbesondere im Blog den Dienst Gravatar der Automattic Inc., 60 29th Street #343, San Francisco, CA 94110, USA, ein.</span></p>
+<p>Gravatar ist ein Dienst, bei dem sich Nutzer anmelden und Profilbilder und ihre E-Mailadressen hinterlegen können. Wenn Nutzer mit der jeweiligen E-Mailadresse auf anderen Onlinepräsenzen (vor allem in Blogs) Beiträge oder Kommentare hinterlassen, können so deren Profilbilder neben den Beiträgen oder Kommentaren dargestellt werden. Hierzu wird die von den Nutzern mitgeteilte E-Mailadresse an Gravatar zwecks Prüfung, ob zu ihr ein Profil gespeichert ist, verschlüsselt übermittelt. Dies ist der einzige Zweck der Übermittlung der E-Mailadresse und sie wird nicht für andere Zwecke verwendet, sondern danach gelöscht.</p>
+<p>Die Nutzung von Gravatar erfolgt auf Grundlage unserer berechtigten Interessen im Sinne des Art. 6 Abs. 1 lit. f) DSGVO, da wir mit Hilfe von Gravatar den Beitrags- und Kommentarverfassern die Möglichkeit bieten ihre Beiträge mit einem Profilbild zu personalisieren.</p>
+<p>Durch die Anzeige der Bilder bringt Gravatar die IP-Adresse der Nutzer in Erfahrung, da dies für eine Kommunikation zwischen einem Browser und einem Onlineservice notwendig ist. Nähere Informationen zur Erhebung und Nutzung der Daten durch Gravatar finden sich in den Datenschutzhinweisen von Automattic: https://automattic.com/privacy/.</p>
+<p>Wenn Nutzer nicht möchten, dass ein mit Ihrer E-Mail-Adresse bei Gravatar verknüpftes Benutzerbild in den Kommentaren erscheint, sollten Sie zum Kommentieren eine E-Mail-Adresse nutzen, welche nicht bei Gravatar hinterlegt ist. Wir weisen ferner darauf hin, dass es auch möglich ist eine anonyme oder gar keine E-Mailadresse zu verwenden, falls die Nutzer nicht wünschen, dass die eigene E-Mailadresse an Gravatar übersendet wird. Nutzer können die Übertragung der Daten komplett verhindern, indem Sie unser Kommentarsystem nicht nutzen.</p>
+<h3 id="dsg-vgwort">VG Wort / Skalierbares Zentrales Messverfahren</h3>
+<p><span class="ts-muster-content">Wir nutzen das „Skalierbare Zentrale Messverfahren“ (SZM) der INFOnline GmbH (INFOnline GmbH, Brühler Str. 9, D-53119 Bonn. ) für die Ermittlung statistischer Kennwerte zur Ermittlung der Kopierwahrscheinlichkeit von Texten. Dabei werden anonyme Messwerte erhoben. Die Zugriffszahlenmessung verwendet zur Wiedererkennung von Computersystemen alternativ ein Session-Cookie oder eine Signatur, die aus verschiedenen automatisch übertragenen Informationen Ihres Browsers erstellt wird. IP-Adressen werden nur in anonymisierter Form verarbeitet. Das Verfahren wurde unter der Beachtung des Datenschutzes entwickelt. Einziges Ziel des Verfahrens ist es, die Kopierwahrscheinlichkeit einzelner Texte zu ermitteln. Zu keinem Zeitpunkt werden einzelne Nutzer identifiziert. Ihre Identität bleibt immer geschützt. Sie erhalten über das System keine Werbung.</span></p>
+<p>Viele unserer Seiten sind mit JavaScript-Aufrufen versehen, über die wir die Zugriffe an die Verwertungsgesellschaft Wort (VG Wort) melden. Wir ermöglichen damit, dass unsere Autoren an den Ausschüttungen der VG Wort partizipieren, die die gesetzliche Vergütung für die Nutzungen urheberrechtlich geschützter Werke gem. § 53 UrhG sicherstellen.</p>
+<p>Es werden hierbei Nutzungsdaten und Metadaten der Nutzer verarbeitet, wobei die IP-Adressen gekürzt werden und die Messverfahren pseudonym sind. Die gekürzte IP-Adresse wird maximal 60 Tage gespeichert. Die Nutzungsdaten in Verbindung mit einem pseudonymen Zuordnungswert („Identifier“) werden maximal 6 Monate gespeichert.</p>
+<p>Den Nutzern steht ferner ein Opt-Out zur Vefügung, um der Erfassung zu vorgenannten Zwecken zu widersprechen: <a href="https://optout.ioam.de/" target="_blank" rel="noopener noreferrer">https://optout.ioam.de</a>. Weitere Informationen können Sie der Datenschutzerklärung von INFOnline entnehmen <a href="https://www.infonline.de/datenschutz/benutzer" target="_blank" rel="noopener noreferrer">https://www.infonline.de/datenschutz/benutzer</a>.</p>
+<h3 id="dsg-google-marketing">Google-Re/Marketing-Services</h3>
+<p><span class="ts-muster-content">Wir nutzen auf Grundlage unserer berechtigten Interessen (d.h. Interesse an der Analyse, Optimierung und wirtschaftlichem Betrieb unseres Onlineangebotes im Sinne des Art. 6 Abs. 1 lit. f. DSGVO) die Marketing- und Remarketing-Dienste (kurz „Google-Marketing-Services”) der Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, („Google“).</span></p>
+<p>Google ist unter dem Privacy-Shield-Abkommen zertifiziert und bietet hierdurch eine Garantie, das europäische Datenschutzrecht einzuhalten (<a href="https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active" target="_blank" rel="noopener noreferrer">https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&amp;status=Active</a>).</p>
+<p>Die Google-Marketing-Services erlauben uns Werbeanzeigen für und auf unserer Website gezielter anzuzeigen, um Nutzern nur Anzeigen zu präsentieren, die potentiell deren Interessen entsprechen. Falls einem Nutzer z.B. Anzeigen für Produkte angezeigt werden, für die er sich auf anderen Webseiten interessiert hat, spricht man hierbei vom „Remarketing“. Zu diesen Zwecken wird bei Aufruf unserer und anderer Webseiten, auf denen Google-Marketing-Services aktiv sind, unmittelbar durch Google ein Code von Google ausgeführt und es werden sog. (Re)marketing-Tags (unsichtbare Grafiken oder Code, auch als “Web Beacons” bezeichnet) in die Webseite eingebunden. Mit deren Hilfe wird auf dem Gerät der Nutzer ein individuelles Cookie, d.h. eine kleine Datei abgespeichert (statt Cookies können auch vergleichbare Technologien verwendet werden). Die Cookies können von verschiedenen Domains gesetzt werden, unter anderem von google.com, doubleclick.net, invitemedia.com, admeld.com, googlesyndication.com oder googleadservices.com. In dieser Datei wird vermerkt, welche Webseiten der Nutzer aufgesucht, für welche Inhalte er sich interessiert und welche Angebote er geklickt hat, ferner technische Informationen zum Browser und Betriebssystem, verweisende Webseiten, Besuchszeit sowie weitere Angaben zur Nutzung des Onlineangebotes. Es wird ebenfalls die IP-Adresse der Nutzer erfasst, wobei wir im Rahmen von Google-Analytics mitteilen, dass die IP-Adresse innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum gekürzt und nur in Ausnahmefällen ganz an einen Server von Google in den USA übertragen und dort gekürzt wird. Die IP-Adresse wird nicht mit Daten des Nutzers innerhalb von anderen Angeboten von Google zusammengeführt. Die vorstehend genannten Informationen können seitens Google auch mit solchen Informationen aus anderen Quellen verbunden werden. Wenn der Nutzer anschließend andere Webseiten besucht, können ihm entsprechend seiner Interessen die auf ihn abgestimmten Anzeigen angezeigt werden.</p>
+<p>Die Daten der Nutzer werden im Rahmen der Google-Marketing-Services pseudonym verarbeitet. D.h. Google speichert und verarbeitet z.B. nicht den Namen oder E-Mailadresse der Nutzer, sondern verarbeitet die relevanten Daten Cookie-bezogen innerhalb pseudonymer Nutzer-Profile. D.h. aus der Sicht von Google werden die Anzeigen nicht für eine konkret identifizierte Person verwaltet und angezeigt, sondern für den Cookie-Inhaber, unabhängig davon wer dieser Cookie-Inhaber ist. Dies gilt nicht, wenn ein Nutzer Google ausdrücklich erlaubt hat, die Daten ohne diese Pseudonymisierung zu verarbeiten. Die von Google-Marketing-Services über die Nutzer gesammelten Informationen werden an Google übermittelt und auf Googles Servern in den USA gespeichert.</p>
+<p>Zu den von uns eingesetzten Google-Marketing-Services gehört u.a. das Online-Werbeprogramm „Google AdWords“. Im Fall von Google AdWords, erhält jeder AdWords-Kunde ein anderes „Conversion-Cookie“. Cookies können somit nicht über die Websites von AdWords-Kunden nachverfolgt werden. Die mit Hilfe des Cookies eingeholten Informationen dienen dazu, Conversion-Statistiken für AdWords-Kunden zu erstellen, die sich für Conversion-Tracking entschieden haben. Die AdWords-Kunden erfahren die Gesamtanzahl der Nutzer, die auf ihre Anzeige geklickt haben und zu einer mit einem Conversion-Tracking-Tag versehenen Seite weitergeleitet wurden. Sie erhalten jedoch keine Informationen, mit denen sich Nutzer persönlich identifizieren lassen.</p>
+<p>Wir können auf Grundlage des Google-Marketing-Services „AdSense“ Werbeanzeigen Dritter einbinden. AdSense verwendet Cookies, mit denen Google und seinen Partner-Websites, die Schaltung von Anzeigen auf Basis der Besuche von Nutzern auf dieser Website bzw. anderen Websites im Internet ermöglicht wird.</p>
+<p>Ferner können wir den “Google Tag Manager” einsetzen, um die Google Analyse- und Marketing-Dienste in unsere Website einzubinden und zu verwalten.</p>
+<p>Weitere Informationen zur Datennutzung zu Marketingzwecken durch Google, erfahren Sie auf der Übersichtsseite: <a href="https://www.google.com/policies/technologies/ads" target="_blank" rel="noopener noreferrer">https://www.google.com/policies/technologies/ads</a>, die Datenschutzerklärung von Google ist unter <a href="https://www.google.com/policies/privacy" target="_blank" rel="noopener noreferrer">https://www.google.com/policies/privacy</a> abrufbar.</p>
+<p>Wenn Sie der interessensbezogenen Werbung durch Google-Marketing-Services widersprechen möchten, können Sie die von Google gestellten Einstellungs- und Opt-Out-Möglichkeiten nutzen: <a href="http://www.google.com/ads/preferences" target="_blank" rel="noopener noreferrer">http://www.google.com/ads/preferences</a>.</p>
+<h3>Verwendung von Google AdSense</h3>
+<p>Diese Website verwendet Google AdSense. Es handelt sich hierbei um einen Dienst der Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, zur Einbindung von Werbeanzeigen. Google AdSense verwendet Cookies. Dies sind Dateien, durch deren Speicherung auf Ihrem PC Google die Daten Ihrer Benutzung unserer Website analysieren kann. Zudem werden bei Google AdSense zusätzlich Web Beacons verwendet, nicht sichtbare Grafiken, die es Google ermöglichen, Klicks auf dieser Website, den Verkehr auf dieser und ähnliche Informationen zu analysieren.</p>
+<p>Die über Cookies und Web Beacons erhaltenen Informationen, Ihre IP-Adresse sowie die Auslieferung von Werbeformaten werden an einen Server von Google mit Standort in den USA übermittelt und dort gespeichert. Google wird diese gesammelten Informationen möglicherweise an Dritte weitergeben, wenn dies gesetzlich erforderlich ist oder Google gegenüber Dritten die Datenverarbeitung in Auftrag gibt. Allerdings wird Google Ihre IP-Adresse zusammen mit den anderen gespeicherten Daten zusammenführen.</p>
+<p>Durch entsprechende Einstellungen an Ihrem Internetbrowser können Sie verhindern, dass die genannten Cookies auf Ihrem PC gespeichert werden. Dadurch besteht jedoch die Möglichkeit, dass die Inhalte dieser Website nicht mehr in gleichem Umfang genutzt werden können. Durch die Nutzung dieser Website willigen Sie in die Bearbeitung der zu Ihrer Person erhobenen Daten durch Google in der zuvor beschriebenen Art und Weise und zu dem zuvor benannten Zweck ein.</p>
+<h3 id="dsg-socialmedia">Onlinepräsenzen in sozialen Medien</h3>
+<p><span class="ts-muster-content">Wir unterhalten Onlinepräsenzen innerhalb sozialer Netzwerke und Plattformen, um mit den dort aktiven Kunden, Interessenten und Nutzern kommunizieren und sie dort über unsere Leistungen informieren zu können. Beim Aufruf der jeweiligen Netzwerke und Plattformen gelten die Geschäftsbedingungen und die Datenverarbeitungsrichtlinien deren jeweiligen Betreiber.</span></p>
+<p>Soweit nicht anders im Rahmen unserer Datenschutzerklärung angegeben, verarbeiten wir die Daten der Nutzer sofern diese mit uns innerhalb der sozialen Netzwerke und Plattformen kommunizieren, z.B. Beiträge auf unseren Onlinepräsenzen verfassen oder uns Nachrichten zusenden.</p>
+<h3 id="dsg-thirdparty-einleitung">Einbindung von Diensten und Inhalten Dritter</h3>
+<p><span class="ts-muster-content">Wir setzen innerhalb unseres Onlineangebotes auf Grundlage unserer berechtigten Interessen (d.h. Interesse an der Analyse, Optimierung und wirtschaftlichem Betrieb unseres Onlineangebotes im Sinne des Art. 6 Abs. 1 lit. f. DSGVO) Inhalts- oder Serviceangebote von Drittanbietern ein, um deren Inhalte und Services, wie z.B. Videos oder Schriftarten einzubinden (nachfolgend einheitlich bezeichnet als “Inhalte”).</span></p>
+<p>Dies setzt immer voraus, dass die Drittanbieter dieser Inhalte, die IP-Adresse der Nutzer wahrnehmen, da sie ohne die IP-Adresse die Inhalte nicht an deren Browser senden könnten. Die IP-Adresse ist damit für die Darstellung dieser Inhalte erforderlich. Wir bemühen uns nur solche Inhalte zu verwenden, deren jeweilige Anbieter die IP-Adresse lediglich zur Auslieferung der Inhalte verwenden. Drittanbieter können ferner so genannte Pixel-Tags (unsichtbare Grafiken, auch als “Web Beacons” bezeichnet) für statistische oder Marketingzwecke verwenden. Durch die “Pixel-Tags” können Informationen, wie der Besucherverkehr auf den Seiten dieser Website ausgewertet werden. Die pseudonymen Informationen können ferner in Cookies auf dem Gerät der Nutzer gespeichert werden und unter anderem technische Informationen zum Browser und Betriebssystem, verweisende Webseiten, Besuchszeit sowie weitere Angaben zur Nutzung unseres Onlineangebotes enthalten, als auch mit solchen Informationen aus anderen Quellen verbunden werden.</p>
+<h3 id="dsg-thirdparty-youtube">Youtube</h3>
+<p><span class="ts-muster-content">Wir binden die Videos der Plattform “YouTube” des Anbieters Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, ein. Datenschutzerklärung: <a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">https://www.google.com/policies/privacy/</a>, Opt-Out: <a href="https://adssettings.google.com/authenticated" target="_blank" rel="noopener noreferrer">https://adssettings.google.com/authenticated</a>.</span></p>
+<h3 id="dsg-thirdparty-googlemaps">Google Maps</h3>
+<p><span class="ts-muster-content">Wir binden die Landkarten des Dienstes “Google Maps” des Anbieters Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, ein. Zu den verarbeiteten Daten können insbesondere IP-Adressen und Standortdaten der Nutzer gehören, die jedoch nicht ohne deren Einwilligung (im Regelfall im Rahmen der Einstellungen ihrer Mobilgeräte vollzogen), erhoben werden. Die Daten können in den USA verarbeitet werden. Datenschutzerklärung: <a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">https://www.google.com/policies/privacy/</a>, Opt-Out: <a href="https://adssettings.google.com/authenticated" target="_blank" rel="noopener noreferrer">https://adssettings.google.com/authenticated</a>.</span></p>
+<h3 id="dsg-thirdparty-instagram">Instagram</h3>
+<p><span class="ts-muster-content">Innerhalb unseres Onlineangebotes können Funktionen und Inhalte des Dienstes Instagram, angeboten durch die Instagram Inc., 1601 Willow Road, Menlo Park, CA, 94025, USA, eingebunden werden. Hierzu können z.B. Inhalte wie Bilder, Videos oder Texte und Schaltflächen gehören, mit denen Nutzer ihr Gefallen betreffend die Inhalte kundtun, den Verfassern der Inhalte oder unsere Beiträge abonnieren können. Sofern die Nutzer Mitglieder der Plattform Instagram sind, kann Instagram den Aufruf der o.g. Inhalte und Funktionen den dortigen Profilen der Nutzer zuordnen. Datenschutzerklärung von Instagram: <a href="http://instagram.com/about/legal/privacy/" target="_blank" rel="noopener noreferrer">http://instagram.com/about/legal/privacy/</a>.</span></p>
+</div>
+</div>
+<div class="code-block code-block-2 ai-viewport-1"></div>
+<p><script src="moz-extension://ff3f77da-0068-4b6b-92d4-b173327a0cfe/inject-scripts/searchvideos.js" async=""></script></p>
+<p><center>[xyz-ips snippet=&#8221;Backlinkseller&#8221;]</center><script src="moz-extension://74a3d37e-bdd0-4496-8eb4-2277cbe4ecc3/inject-scripts/searchvideos.js" async=""></script></p>
+<p><script src="moz-extension://74a3d37e-bdd0-4496-8eb4-2277cbe4ecc3/inject-scripts/searchvideos.js" async=""></script></p>
+        </div>
+    </div>
+
+<div  class='footer footer-simple'>
+    <div  class='footer-content center-xs'>
+        <div class="gridContainer">
+	        <div class="row middle-xs footer-content-row">
+	            <div class="footer-content-col col-xs-12">
+	                    &copy; 2023 Radio Dynad - hosted by <a href="https://www.lima-city.de/?cref=366846" target="_blank" title="Webhosting, Domains &amp; Cloud von lima-city"><u>lima-city</u></a>	            </div>
+	        </div>
+	    </div>
+    </div>
+</div>
+	</div>
+<script type='text/javascript'  defer="defer" src='https://sungalaxy.de/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+<script type='text/javascript'  defer="defer" src='https://sungalaxy.de/wp-includes/js/masonry.min.js?ver=4.2.2' id='masonry-js'></script>
+<script type='text/javascript'  defer="defer" src='https://sungalaxy.de/wp-content/themes/mesmerize/assets/js/theme.bundle.min.js?ver=1.0.0' id='mesmerize-theme-js'></script>
+    <script>
+        /(trident|msie)/i.test(navigator.userAgent) && document.getElementById && window.addEventListener && window.addEventListener("hashchange", function () {
+            var t, e = location.hash.substring(1);
+            /^[A-z0-9_-]+$/.test(e) && (t = document.getElementById(e)) && (/^(?:a|select|input|button|textarea)$/i.test(t.tagName) || (t.tabIndex = -1), t.focus())
+        }, !1);
+    </script>
+	</body>
+</html>
